@@ -9,6 +9,5 @@ The original can be found here: **[https://github.com/dannye/pokered-gbc](https:
 
 ---
 ![Title Screen](_github/ScSh_Battle.png)
-![Title Screen](_github/ScSh_Runaround.gif)
 ![Title Screen](_github/ScSh_Badges.png)
 ![Title Screen](_github/ScSh_Flowers.gif)
