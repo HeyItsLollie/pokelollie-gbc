@@ -16,7 +16,7 @@ SPR_PAL_ORANGE	EQU 0
 SPR_PAL_BLUE	EQU 1
 SPR_PAL_GREEN	EQU 2
 SPR_PAL_BROWN	EQU 3
-SPR_PAL_PURPLE  EQU 4
+SPR_PAL_LOLLIE  EQU 4 ; Originally purple, was only used by master ball
 SPR_PAL_EMOJI   EQU 5
 SPR_PAL_TREE    EQU 6
 SPR_PAL_ROCK    EQU 7
@@ -302,7 +302,7 @@ ClearSpritePaletteMap:
 
 SpritePaletteAssignments: ; Characters on the overworld
 	; 0x01: SPRITE_RED
-	db SPR_PAL_ORANGE
+	db SPR_PAL_LOLLIE
 
 	; 0x02: SPRITE_BLUE
 	db SPR_PAL_BLUE
@@ -428,7 +428,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_GREEN
 
 	; 0x2b: SPRITE_MR_MASTERBALL
-	db SPR_PAL_PURPLE
+	db SPR_PAL_BLUE
 
 	; 0x2c: SPRITE_LAPRAS_GIVER
 	db SPR_PAL_RANDOM

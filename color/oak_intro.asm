@@ -14,7 +14,7 @@ GetRedPalID:
 IF GEN_2_GRAPHICS
 	ld a, PAL_HERO
 ELSE
-	ld a, PAL_REDMON
+	ld a, PAL_CARD
 ENDC
 	jr GotPalID
 

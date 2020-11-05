@@ -482,7 +482,7 @@ SetPal_TitleScreen:
 IF GEN_2_GRAPHICS
 	ld d, PAL_HERO
 ELSE
-	ld d, PAL_REDMON
+	ld d, PAL_CARD
 ENDC
 	ld e,0
 	callba LoadSGBPalette_Sprite
@@ -840,7 +840,7 @@ SetPal_TrainerCard:
 	ld d,PAL_BADGE
 	ld e,1
 	callba LoadSGBPalette
-	ld d,PAL_REDMON
+	ld d,PAL_CARD
 	ld e,2
 	callba LoadSGBPalette
 	ld d,PAL_YELLOWMON
@@ -851,16 +851,16 @@ SetPal_TrainerCard:
 IF GEN_2_GRAPHICS
 	ld d, PAL_HERO
 ELSE
-	ld d, PAL_REDMON
+	ld d, PAL_CARD
 ENDC
 	ld e,4
 	callba LoadSGBPalette
 
 	; Palette for border tiles
 IF DEF(_BLUE)
-	ld d, PAL_BLUEMON
+	ld d, PAL_CARD
 ELSE ; _RED
-	ld d, PAL_REDMON
+	ld d, PAL_CARD
 ENDC
 	ld e,5
 	callba LoadSGBPalette
